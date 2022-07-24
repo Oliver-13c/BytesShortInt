@@ -30,5 +30,36 @@ public class Main {
 
         byte myNewByteValue = (byte)  (myByteMinValue /2);
         short myNewShortValue = (short) (myMinShortValue /2);
+
+
+        System.out.println("Challenge results");
+         byte byteValue = 10;
+         short shortValue = 20;
+         int intValue = 50;
+         long longTotal = 5000;
+
+
+         long totalSum = 10*longTotal + byteValue + shortValue + intValue;
+        System.out.println(totalSum);
+        float myFloatValue = 5.25f;
+        System.out.println(" Pounds to kilograms ");
+
+        double kilo=200;
+        double pounds= kilo*0.45359237;
+        System.out.println(pounds);
+
+
+        System.out.println("Char");
+
+        char myChar = 'D';
+
     }
-}
+        }
+
+
+
+
+
+
+
+
